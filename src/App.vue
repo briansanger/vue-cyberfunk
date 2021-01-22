@@ -1,5 +1,6 @@
 <template>
   <div id="app">
+    <Cyberbar></Cyberbar>
     <div id="nav">
       <router-link to="/">Home</router-link> |
       <router-link to="/about">About</router-link>
@@ -7,6 +8,15 @@
     <router-view/>
   </div>
 </template>
+
+<script>
+import Cyberbar from './components/Cyberbar.vue';
+export default {
+  components: {
+    Cyberbar
+  }
+}
+</script>
 
 <style lang="scss">
 #app {
