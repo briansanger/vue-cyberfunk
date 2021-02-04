@@ -5,8 +5,7 @@
         <li
           class="scene_nav_item"
           v-for="(params, index) in maxScene"
-          :key="index"
-        >
+          :key="index">
           <button
             class="scene_nav_button"
             @click="scene = index"
@@ -34,8 +33,6 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  /* width: 100vw;
-  height: 100vh; */
   overflow: hidden;
   background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
 }

@@ -5,16 +5,22 @@
     <div>
       <glitch-button></glitch-button>
     </div>
+    <div>
+      <circuit-pattern></circuit-pattern>
+    </div>
   </div>
 </template>
 
 <script>
-import GlitchButton from '../components/GlitchButton.vue'
-import HexagonCard from '../components/HexagonCard'
+import GlitchButton from '../components/GlitchButton.vue';
+import HexagonCard from '../components/HexagonCard';
+import CircuitPattern from '@/components/CircuitPattern';
+
 export default {
 components: {
   HexagonCard,
-  GlitchButton
+  GlitchButton,
+  CircuitPattern
 }
 
 }
